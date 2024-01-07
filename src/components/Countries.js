@@ -15,7 +15,6 @@ const Countries = () => {
   }, []);
   return (
     <div className="countries">
-      <h1>Countries</h1>
       <ul className="radio-container">
         <input
           type="range"

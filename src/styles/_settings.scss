@@ -7,13 +7,17 @@ $font-1: "font-1", sans-serif;
 
 $color-1: #61dafb;
 $color-2: salmon;
-$color-3: #282c34;
+$color-3: #212121;
 $white: rgb(243, 243, 243);
 
 @mixin verticalCenter {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@mixin widthContainer {
+  width: 97%;
 }
 
 * {
@@ -24,8 +28,8 @@ $white: rgb(243, 243, 243);
 }
 
 body {
-  background: $white;
   font-family: $font-1;
+  background-color: $color-3;
   // @include verticalCenter;
 }
 li {
