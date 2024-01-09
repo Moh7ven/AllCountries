@@ -1,0 +1,42 @@
+.aboutContainer {
+  @include verticalCenter;
+}
+
+.aboutTextContainer {
+  @include widthContainer;
+  background-color: $white;
+  padding: 10px;
+  border-radius: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+.welcomeAbout {
+  text-align: center;
+}
+
+.aboutTextContainer p {
+  font-size: 16px;
+  color: $color-4;
+}
+
+.aboutTextContainer :nth-child(1) {
+  color: $color-1;
+}
+
+.aboutTextContainer :nth-child(2) {
+  margin-top: 2%;
+}
+
+.aboutTextContainer :nth-child(3) {
+  margin-top: 1%;
+  font-size: 20px;
+}
+
+.aboutCard {
+  width: 300px;
+  height: 400px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}

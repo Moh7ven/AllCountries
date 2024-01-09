@@ -8,12 +8,14 @@ $font-1: "font-1", sans-serif;
 $color-1: #61dafb;
 $color-2: salmon;
 $color-3: #212121;
+$color-4: #474b5a;
 $white: rgb(243, 243, 243);
 
 @mixin verticalCenter {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 @mixin widthContainer {
