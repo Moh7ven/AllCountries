@@ -11,7 +11,7 @@ const About = () => {
       <div className="aboutContainer">
         <div className="aboutTextContainer">
           <h1 className="welcomeAbout">
-            Bienvenue sur notre Application "InfosPays" !
+            Bienvenue sur notre Application "AllCountries" !
           </h1>
           <p>
             Notre application a pour objectif de vous offrir un aperçu détaillé
